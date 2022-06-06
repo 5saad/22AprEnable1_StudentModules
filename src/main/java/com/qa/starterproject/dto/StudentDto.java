@@ -6,11 +6,12 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class StudentDto {
-	
+
 	private Long id;
 	private String firstName;
 	private String surname;
 	private String course;
 	private int yearOfStudy;
+	private Module module;  
 
 }
